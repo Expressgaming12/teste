@@ -3,4 +3,3 @@
 
 ![Vista previa](images/preview.png)
 
-Una breve descripción de tu proyecto.
