@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="0;url=https://stoff81.online">
+    <script>
+        // Script to redirect any 'invite' URL to the main page
+        document.addEventListener('DOMContentLoaded', function() {
+            const inviteCode = window.location.pathname.match(/invite\d{6}\.online/);
+            if (inviteCode) {
+                window.location.href = 'https://stoff81.online';
+            }
+        });
+    </script>
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="https://stoff81.online">link to the main page</a>.</p>
+</body>
+</html>
